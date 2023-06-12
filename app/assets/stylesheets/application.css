@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+.container, .title-section {
+  font-family:'Open sans', sans-serif;
+  font-size: large;
+ }
+
+ .h1 {
+  font-family: 'Open sans';
+  font-size: larger;
+  font-weight: 800;
+ }
+
+ container {
+  display:flex;
+  justify-content: flex-start;
+ }
+
+ .title-section {
+  margin-bottom: 20px;
+}
